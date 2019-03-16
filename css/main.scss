@@ -1,0 +1,35 @@
+// Definir variaveis de cores
+$color1: #352F44;
+$color2: #DBD8E3;
+$color3: #5C5470;
+
+// Inserir cores no Bootstrap
+$theme-colors: (
+    'color1': $color1,
+    'color2': $color2,
+    'color3': $color3,
+);
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans');
+
+.title{
+    font-family: 'Bitter', serif;
+}
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Torna a fonte responsiva. Por padrão, vem desativada.
+$enable-responsive-font-sizes: true !default;
+
+// Para ativar sombra em todos os elementos do Bootstrap, altere essa opção para true;
+$enable-shadows: false !default;
+
+// Para desativar os cantos arredondados de todos os elementos do Bootstrap, altere essa opção para false;
+$enable-rounded: true !default;
+
+// Para as cores terem um degradê, altere essa opção para true
+$enable-gradients:  false !default;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
