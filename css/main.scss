@@ -29,9 +29,14 @@ $theme-colors: (
     transition: .3s;
 }
 
+.transition{
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
 .animate:hover{
-    -webkit-box-shadow: 0 1rem 3rem #7165665e;
-    box-shadow: 0 1rem 3rem #7165665e;
+    -webkit-box-shadow: 0 1rem 3rem $color1;
+    box-shadow: 0 1rem 3rem $color1;
 }
 
 // Torna a fonte responsiva. Por padrão, vem desativada.
