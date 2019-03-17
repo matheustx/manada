@@ -20,6 +20,20 @@ $theme-colors: (
     font-family: 'Open Sans', sans-serif;
 }
 
+.top-initial{
+    top: initial;
+}
+
+.animate{
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.animate:hover{
+    -webkit-box-shadow: 0 1rem 3rem #7165665e;
+    box-shadow: 0 1rem 3rem #7165665e;
+}
+
 // Torna a fonte responsiva. Por padrão, vem desativada.
 $enable-responsive-font-sizes: true !default;
 
@@ -27,7 +41,7 @@ $enable-responsive-font-sizes: true !default;
 $enable-shadows: false !default;
 
 // Para desativar os cantos arredondados de todos os elementos do Bootstrap, altere essa opção para false;
-$enable-rounded: true !default;
+$enable-rounded: false !default;
 
 // Para as cores terem um degradê, altere essa opção para true
 $enable-gradients:  false !default;

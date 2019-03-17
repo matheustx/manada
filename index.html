@@ -52,6 +52,20 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
+          <ul class="navbar-nav ml-auto mr-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-youtube fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-github fa-lg"></i></a>
+            </li>
+          </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-color2 my-2 my-sm-0" type="submit">Search</button>
@@ -61,17 +75,70 @@
       </nav>
 </header>
 
-<main class="container">
-    <section id="destaques">
-        <div class="row">
-            <div class="col">
-
-            </div>
-            <div class="col">
-                
-            </div>
+<main class="container mt-2">
+  <section id="destaques">
+    <span class="title bg-color1 text-color2 p-2">Destaques</span>
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="card bg-dark text-white mb-2 animate">
+          <img src="https://picsum.photos/600/300" class="card-img" alt="...">
+          <div class="card-img-overlay" style="top: initial">
+            <h5 class="card-title align-self-end title">Card title</h5>
+            <p class="card-text align-self-end text">This is a wider card with supporting text below as a natural lead-in
+              to
+              additional content. This content is a little bit longer.</p>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="card bg-dark text-white mb-2 animate">
+          <img src="https://picsum.photos/600/300" class="card-img" alt="...">
+          <div class="card-img-overlay" style="top: initial">
+            <h5 class="card-title align-self-end title">Card title</h5>
+            <p class="card-text align-self-end text">This is a wider card with supporting text below as a natural lead-in
+              to
+              additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div class="row">
+    <div class="col-sm-12 col-lg-7" id="posts">
+      <section>
+        <span class="title bg-color1 text-color2 p-2">Ultimas postagens</span>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/g/200/300" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+    <div class="col-sm-12 col-lg-5" id="sidebar">
+        <span class="title bg-color1 text-color2 p-2">Widgets</span>
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+    </div>
+  </div>
 </main>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
